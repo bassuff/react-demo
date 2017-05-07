@@ -1,0 +1,23 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "description": "React demo",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bassuff/react-demo.git"
+  },
+  "author": "Axel Winter <mail@axelwinter.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bassuff/react-demo/issues"
+  },
+  "homepage": "https://github.com/bassuff/react-demo#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  }
+}
